@@ -1,0 +1,54 @@
+// MEDIA QUERIES
+@mixin desktop {
+  @media (min-width: $desktop) {
+    @content;
+  }
+}
+@mixin desktop-small {
+  @media (max-width: $desktop-small) {
+    @content;
+  }
+}
+
+@mixin tablet-large {
+  @media (max-width: $tablet-large) {
+    @content;
+  }
+}
+
+@mixin tablet-small {
+  @media (max-width: $tablet-small) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (max-width: $tablet) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media (max-width: $mobile) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media (max-width: $mobile) {
+    @content;
+  }
+}
+
+@mixin mobile-small {
+  @media (max-width: $mobile-small) {
+    @content;
+  }
+}
+
+@mixin pseudo-element {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+}

@@ -1,0 +1,16 @@
+{
+  "folders": [
+	{
+		"path": "."
+	},
+	{
+		"path": "../../Downloads/responsive-accordion-main"
+	},
+	{
+		"path": "../Плюшки/OWL — копия"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "responsive-accordion-main"
+  }
+}

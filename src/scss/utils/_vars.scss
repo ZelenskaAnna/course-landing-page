@@ -1,0 +1,45 @@
+// breakpoints
+$desktop: 1441px;
+$desktop-small: 1200px;
+$tablet-large: 1024px;
+$tablet: 992px;
+$tablet-small: 768px;
+$mobile: 576px;
+$mobile-small: 380px;
+
+:root {
+  --ff: "Montserrat", sans-serif;
+  --ff-second: "Mulish", sans-serif;
+  --transition: 0.2s all ease-in-out;
+
+  --c-primary: #cd10ff;
+  --c-arrow: #9F06FF;
+  --c-title: #001a49;
+  --c-desc: #4f596a;
+  --c-white: #fff;
+  --c-border: rgb(205, 16, 255, 0.2);
+  --c-line: #E7EAEB;
+  --c-border-line: #8639B5;
+  --c-students: #9F07FF;
+
+
+  --gradient-primary: linear-gradient(44deg, #cd10ff 15.75%, #9f06ff 84.63%);
+  --gradient-circle: linear-gradient(36deg, #FFD7A9 9.11%, #FFAE70 71.64%);
+  --gradient-guarantee: linear-gradient(90deg, #FFD7A9 0%, #FFAE70 100%);
+
+
+  --title: normal 700 46px/56px var(--ff);
+  --desc: normal 400 20px/30px var(--ff-second);
+  --title-accordion: normal 700 20px/24px var(--ff);
+  --desc-accordion: normal 400 16px/26px var(--ff-second);
+  --amount: normal 700 40px/50px var(--ff);
+  --desc-reviews: normal 400 16px/normal var(--ff-second);
+  --link: normal 700 16px/normal var(--ff-second);
+  --title-plan: normal 700 24px/24px var(--ff);
+  --desc-plan: normal 400 16px/24px var(--ff-second);
+  --btn-plan: normal 600 16px/normal var(--ff-second);
+  --btn-get-started: normal 700 20px/normal var(--ff-second);
+  --text-guarantee: normal 700 12px/normal var(--ff);
+  --title-welcome: normal 700 60px/68px var(--ff);
+
+}

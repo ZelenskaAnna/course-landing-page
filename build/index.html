@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Gulp Starter Project my LemonSchool</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Mulish:wght@300;400;500;600;700&display=swap"
+		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+	<div class="container header__container">
+		<a href="/" class="header__logo"><img src="./img/logo.svg" alt="Logoipsum"></a>
+		<nav class="header__nav">
+			<div class="header__backdrop" id="headerBackdrop" onclick="navToggle()"></div>
+			<ul class="header__ul" id="headerUl">
+				<li class="header__li"><a class="header__a" href="/">Course topics</a></li>
+				<li class="header__li"><a class="header__a" href="/">What students say</a></li>
+
+				<span class="material-icons icon-close" onclick="navToggle()">close</span>
+			</ul>
+			<span class="material-icons icon-menu" onclick="navToggle()">menu</span>
+		</nav>
+		<div class="header-btn">
+			<a href="/" class="header-btn__sign">Sign in</a>
+			<a href="/" class="btn header-btn__start">Get started</a>
+		</div>
+	</div>
+</header>
+		<section class="welcome">
+    <div class="welcome__wrap">
+            <div class="container welcome__container">
+                <div class="welcome__info">
+                    <h1 class="welcome__title">Learn no-code tools today.</h1>
+                    <p class="desc">Create beautiful webflow sites with flowbase. Clone for
+                        free and get started building a site today.</p>
+                    <a href="/" class="btn">Get started</a>
+                    <div class="welcome__users">
+                        <div class="welcome__author">
+                            <img class="welcome__img" src="./img/user1.png" alt="User">
+                            <img class="welcome__img" src="./img/user2.png" alt="User">
+                            <img class="welcome__img" src="./img/user3.png" alt="User">
+                        </div>
+                        <span class="welcome__students">Join over <span>4,000+</span> students</span>
+                    </div>
+                </div>
+                <video width="590" height="360" controls>
+                    <source src="https://www.youtube.com/watch?v=Qfz3Gz4Vtg0" type="video/mp4">
+                </video>
+            </div>    
+    </div>
+
+</section>
+		<section class="statistics">
+    <div class="container statistics__container">
+        <div class="statistic">
+            <div class="statistic-item">
+                <h3 class="statistic-item__amount">12,201</h3>
+                <span class="statistic-item__desc">happy students</span>
+            </div>
+            <div class="statistic-item">
+                <h3 class="statistic-item__amount">3,291</h3>
+                <span class="statistic-item__desc">lectures</span>
+            </div>
+            <div class="statistic-item">
+                <h3 class="statistic-item__amount">1,291</h3>
+                <span class="statistic-item__desc">5 star reviews</span>
+            </div>
+        </div>
+    </div>
+</section>
+		<section class="plan">
+        <div class="container plan__container">
+            <h2 class="title">What you’ll learn</h2>
+            <p class="desc">Create beautiful webflow sites with flowbase. Clone for
+                free and get started building a site today.</p>
+            <div class="plan__list">
+                <div class="plan-item">
+                    <span class="plan-item__circle">
+                        <i class="plan-item__icon">
+                            <svg width="40" height="33" viewBox="0 0 40 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M28.6667 27.9769C27.1982 30.3064 23.8018 30.3064 22.3333 27.9769L14.6186 15.7399C13.0471 13.2471 14.8385 10 17.7854 10L33.2146 10C36.1615 10 37.9529 13.2471 36.3814 15.7399L28.6667 27.9769Z" fill="url(#paint0_linear_5_4)"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M11.3333 5.02308C12.8018 2.69363 16.1982 2.69363 17.6667 5.02308L25.3814 17.2601C26.9529 19.7529 25.1615 23 22.2146 23H6.78536C3.83853 23 2.04709 19.7529 3.61864 17.2601L11.3333 5.02308Z" fill="url(#paint1_linear_5_4)"/>
+    <defs>
+    <linearGradient id="paint0_linear_5_4" x1="24.9912" y1="5.04492" x2="14.3544" y2="23.7008" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#FFD7A9"/>
+    <stop offset="1" stop-color="#FFAE70"/>
+    </linearGradient>
+    <linearGradient id="paint1_linear_5_4" x1="16.3521" y1="28.4372" x2="31.4268" y2="8.82843" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#CD10FF"/>
+    <stop offset="1" stop-color="#9F06FF"/>
+    </linearGradient>
+    </defs>
+    </svg>
+    
+
+
+                        </i>
+                    </span>
+                    <div class="plan-item__info">
+                        <h3 class="plan-item__title">Analyzing User Data</h3>
+                        <p class="plan-item__desc">Who are you developing for? How will they use your design? Building
+                            user
+                            personas can answer these.</p>
+                    </div>
+                    <a href="/" class="btn plan-item__btn"><span>6 videos</span><span>4.5 hours</span></a>
+                </div>
+                <div class="plan-item">
+                    <span class="plan-item__circle">
+                        <i class="plan-item__icon">
+                            <svg width="40" height="33" viewBox="0 0 40 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M28.6667 27.9769C27.1982 30.3064 23.8018 30.3064 22.3333 27.9769L14.6186 15.7399C13.0471 13.2471 14.8385 10 17.7854 10L33.2146 10C36.1615 10 37.9529 13.2471 36.3814 15.7399L28.6667 27.9769Z" fill="url(#paint0_linear_5_4)"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M11.3333 5.02308C12.8018 2.69363 16.1982 2.69363 17.6667 5.02308L25.3814 17.2601C26.9529 19.7529 25.1615 23 22.2146 23H6.78536C3.83853 23 2.04709 19.7529 3.61864 17.2601L11.3333 5.02308Z" fill="url(#paint1_linear_5_4)"/>
+    <defs>
+    <linearGradient id="paint0_linear_5_4" x1="24.9912" y1="5.04492" x2="14.3544" y2="23.7008" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#FFD7A9"/>
+    <stop offset="1" stop-color="#FFAE70"/>
+    </linearGradient>
+    <linearGradient id="paint1_linear_5_4" x1="16.3521" y1="28.4372" x2="31.4268" y2="8.82843" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#CD10FF"/>
+    <stop offset="1" stop-color="#9F06FF"/>
+    </linearGradient>
+    </defs>
+    </svg>
+    
+
+
+                        </i>
+                    </span>
+                    <div class="plan-item__info">
+                        <h3 class="plan-item__title">User Persona</h3>
+                        <p class="plan-item__desc">Who are you developing for? How will they use your design? Building
+                            user
+                            personas can answer these.</p>
+                    </div>
+                    <a href="/" class="btn plan-item__btn"><span>6 videos</span><span>4.5 hours</span></a>
+                </div>
+                <div class="plan-item">
+                    <span class="plan-item__circle">
+                        <i class="plan-item__icon">
+                            <svg width="40" height="33" viewBox="0 0 40 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M28.6667 27.9769C27.1982 30.3064 23.8018 30.3064 22.3333 27.9769L14.6186 15.7399C13.0471 13.2471 14.8385 10 17.7854 10L33.2146 10C36.1615 10 37.9529 13.2471 36.3814 15.7399L28.6667 27.9769Z" fill="url(#paint0_linear_5_4)"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M11.3333 5.02308C12.8018 2.69363 16.1982 2.69363 17.6667 5.02308L25.3814 17.2601C26.9529 19.7529 25.1615 23 22.2146 23H6.78536C3.83853 23 2.04709 19.7529 3.61864 17.2601L11.3333 5.02308Z" fill="url(#paint1_linear_5_4)"/>
+    <defs>
+    <linearGradient id="paint0_linear_5_4" x1="24.9912" y1="5.04492" x2="14.3544" y2="23.7008" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#FFD7A9"/>
+    <stop offset="1" stop-color="#FFAE70"/>
+    </linearGradient>
+    <linearGradient id="paint1_linear_5_4" x1="16.3521" y1="28.4372" x2="31.4268" y2="8.82843" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#CD10FF"/>
+    <stop offset="1" stop-color="#9F06FF"/>
+    </linearGradient>
+    </defs>
+    </svg>
+    
+
+
+                        </i>
+                    </span>
+                    <div class="plan-item__info">
+                        <h3 class="plan-item__title">Prototyping</h3>
+                        <p class="plan-item__desc">Who are you developing for? How will they use your design? Building
+                            user
+                            personas can answer these.</p>
+                    </div>
+                    <a href="/" class="btn plan-item__btn"><span>6 videos</span><span>4.5 hours</span></a>
+                </div>
+                <div class="plan-item">
+                    <span class="plan-item__circle">
+                        <i class="plan-item__icon">
+                            <svg width="40" height="33" viewBox="0 0 40 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M28.6667 27.9769C27.1982 30.3064 23.8018 30.3064 22.3333 27.9769L14.6186 15.7399C13.0471 13.2471 14.8385 10 17.7854 10L33.2146 10C36.1615 10 37.9529 13.2471 36.3814 15.7399L28.6667 27.9769Z" fill="url(#paint0_linear_5_4)"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M11.3333 5.02308C12.8018 2.69363 16.1982 2.69363 17.6667 5.02308L25.3814 17.2601C26.9529 19.7529 25.1615 23 22.2146 23H6.78536C3.83853 23 2.04709 19.7529 3.61864 17.2601L11.3333 5.02308Z" fill="url(#paint1_linear_5_4)"/>
+    <defs>
+    <linearGradient id="paint0_linear_5_4" x1="24.9912" y1="5.04492" x2="14.3544" y2="23.7008" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#FFD7A9"/>
+    <stop offset="1" stop-color="#FFAE70"/>
+    </linearGradient>
+    <linearGradient id="paint1_linear_5_4" x1="16.3521" y1="28.4372" x2="31.4268" y2="8.82843" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#CD10FF"/>
+    <stop offset="1" stop-color="#9F06FF"/>
+    </linearGradient>
+    </defs>
+    </svg>
+    
+
+
+                        </i>
+                    </span>
+                    <div class="plan-item__info">
+                        <h3 class="plan-item__title">Storyboarding</h3>
+                        <p class="plan-item__desc">Who are you developing for? How will they use your design? Building
+                            user
+                            personas can answer these.</p>
+                    </div>
+                    <a href="/" class="btn plan-item__btn"><span>6 videos</span><span>4.5 hours</span></a>
+                </div>
+            </div>
+        </div>
+</section>
+		<section class="lector">
+    <div class="container lector__container">
+        <div class="lector-info">
+            <h2 class="title lector-info__title">Hi, I am David, your course instructor.</h2>
+            <p class="desc lector-info__desc">Create beautiful webflow sites with flowbase. Clone for
+                free and get started building a site today.</p>
+        </div>
+        <div class="lector-img">
+            <div class="lector-img__container">
+                <img src="./img/lector.png" alt="Instructor">
+            </div>
+        </div>
+    </div>
+</section>
+		<section class="reviews">
+    <!-- <div class="container"> -->
+        <h2 class="title">What my students say</h2>
+        <p class="desc">Create custom landing pages with Shades that convert more visitors than any website—no coding
+            required.</p>
+        <div class="reviews__swiper">
+    <div class="swiper">
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <p class="swiper-slide__desc">
+                    “I waited to completely finish the course to rate it. This was my first approach to python, i am
+                    an excel and VBA user. The professor has an excellent way to explain it and a lot or order and
+                    organization. I really recommend it.”
+                </p>
+                <div class="swiper-slide__item">
+                    <div class="swiper-slide__img">
+                        <img src="./img/author1.png" alt="Henk">
+                    </div>
+                    <div class="swiper-slide__author">
+                        <p class="swiper-slide__name">Henk Fortuin</p>
+                        <p class="swiper-slide__role">Founder of Crips</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <p class="swiper-slide__desc">
+                    “I waited to completely finish the course to rate it. This was my first approach to python, i am
+                    an excel and VBA user. The professor has an excellent way to explain it and a lot or order and
+                    organization. I really recommend it.”
+                </p>
+                <div class="swiper-slide__item">
+                    <div class="swiper-slide__img">
+                        <img src="./img/author2.png" alt="Opi">
+                    </div>
+                    <div class="swiper-slide__author">
+                        <p class="swiper-slide__name">Opi Watihana</p>
+                        <p class="swiper-slide__role">Founder of Crips</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <p class="swiper-slide__desc">
+                    “I waited to completely finish the course to rate it. This was my first approach to python, i am
+                    an excel and VBA user. The professor has an excellent way to explain it and a lot or order and
+                    organization. I really recommend it.”
+                </p>
+                <div class="swiper-slide__item">
+                    <div class="swiper-slide__img">
+                        <img src="./img/author3.png" alt="Annie">
+                    </div>
+                    <div class="swiper-slide__author">
+                        <p class="swiper-slide__name">Annie Reyes</p>
+                        <p class="swiper-slide__role">Founder of Crips</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+    <!-- </div> -->
+</section>
+		<section class="faq">
+    <div class="container faq__container">
+        <h2 class="title faq__title">Frequently asked questions</h2>
+
+        <section class="accordion">
+            <div class="accordion__container">
+                <div class="accordion__item">
+                    <header class="accordion__header">
+                        <h3 class="accordion__title">Will I get full access to the course after purchasing?</h3>
+                        <i class='accordion__icon'>
+                            <svg width="12" height="9" viewBox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M1.41 0.839844L6 5.41984L10.59 0.839844L12 2.24984L6 8.24984L0 2.24984L1.41 0.839844Z"
+        fill="url(#paint0_linear_0_166)" />
+    <defs>
+        <linearGradient id="paint0_linear_0_166" x1="6.76637" y1="10.0016" x2="11.1957" y2="2.60162"
+            gradientUnits="userSpaceOnUse">
+            <stop stop-color="#001a49" />
+            <stop offset="1" stop-color="#001a49" />
+        </linearGradient>
+    </defs>
+</svg>
+                        </i>
+                    </header>
+
+                    <div class="accordion__content">
+                        <p class="accordion__description">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                            squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
+                            nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+                            single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
+                            beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
+                            lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
+                            probably haven't heard of them accusamus labore sustainable VHS.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="accordion__item">
+                    <header class="accordion__header">
+                        <h3 class="accordion__title">Do you give money back guarantee?</h3>
+                        <i class='accordion__icon'>
+                            <svg width="12" height="9" viewBox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M1.41 0.839844L6 5.41984L10.59 0.839844L12 2.24984L6 8.24984L0 2.24984L1.41 0.839844Z"
+        fill="url(#paint0_linear_0_166)" />
+    <defs>
+        <linearGradient id="paint0_linear_0_166" x1="6.76637" y1="10.0016" x2="11.1957" y2="2.60162"
+            gradientUnits="userSpaceOnUse">
+            <stop stop-color="#001a49" />
+            <stop offset="1" stop-color="#001a49" />
+        </linearGradient>
+    </defs>
+</svg>
+                        </i>
+                    </header>
+
+                    <div class="accordion__content">
+                        <p class="accordion__description">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                            squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
+                            nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+                            single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
+                            beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
+                            lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
+                            probably haven't heard of them accusamus labore sustainable VHS.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion__item">
+                    <header class="accordion__header">
+                        <h3 class="accordion__title">Do you offer a discount?</h3>
+                        <i class='accordion__icon'>
+                            <svg width="12" height="9" viewBox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M1.41 0.839844L6 5.41984L10.59 0.839844L12 2.24984L6 8.24984L0 2.24984L1.41 0.839844Z"
+        fill="url(#paint0_linear_0_166)" />
+    <defs>
+        <linearGradient id="paint0_linear_0_166" x1="6.76637" y1="10.0016" x2="11.1957" y2="2.60162"
+            gradientUnits="userSpaceOnUse">
+            <stop stop-color="#001a49" />
+            <stop offset="1" stop-color="#001a49" />
+        </linearGradient>
+    </defs>
+</svg>
+                        </i>
+                    </header>
+
+                    <div class="accordion__content">
+                        <p class="accordion__description">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                            squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
+                            nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+                            single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
+                            beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
+                            lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
+                            probably haven't heard of them accusamus labore sustainable VHS.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion__item">
+                    <header class="accordion__header">
+                        <h3 class="accordion__title">Do you offer support after joining?</h3>
+                        <i class='accordion__icon'>
+                            <svg width="12" height="9" viewBox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M1.41 0.839844L6 5.41984L10.59 0.839844L12 2.24984L6 8.24984L0 2.24984L1.41 0.839844Z"
+        fill="url(#paint0_linear_0_166)" />
+    <defs>
+        <linearGradient id="paint0_linear_0_166" x1="6.76637" y1="10.0016" x2="11.1957" y2="2.60162"
+            gradientUnits="userSpaceOnUse">
+            <stop stop-color="#001a49" />
+            <stop offset="1" stop-color="#001a49" />
+        </linearGradient>
+    </defs>
+</svg>
+                        </i>
+                    </header>
+
+                    <div class="accordion__content">
+                        <p class="accordion__description">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                            squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
+                            nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+                            single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
+                            beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
+                            lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
+                            probably haven't heard of them accusamus labore sustainable VHS.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+</section>
+		<section class="get-started">
+    <div class="container get-started__container">
+        <span class="get-started__circle"></span>
+        <span class="get-started__guarantee">Get 30 Days Money Back Guarantee</span>
+        <h2 class="title">Ready to learn UX Design from the expert?</h2>
+        <a href="/" class="btn">Get started</a>
+    </div>
+</section>
+		<footer class="footer">
+	<div class="container footer__container">
+		<div class="footer__field">
+			<a href="/" class="header__logo"><img src="./img/logo.svg" alt="Logoipsum"></a>
+			<form>
+				<input type="email" name="email" id="email" autocomplete="email" class="footer__input" placeholder="Stay in the loop  - sign up with your email">
+				<button class="btn footer__btn">Subscribe</button>
+			</form>
+		</div>
+
+		<div class="footer-list">
+			<div class="footer-list__item">
+				<span>Help Menu</span>
+				<a href="/" class="footer-list__a">About</a>
+				<a href="/" class="footer-list__a">Features</a>
+				<a href="/" class="footer-list__a">Works</a>
+				<a href="/" class="footer-list__a">Career</a>
+			</div>
+			<div class="footer-list__item">
+				<a href="/" class="footer-list__a">Contact</a>
+				<a href="/" class="footer-list__a">Help & Support</a>
+				<a href="/" class="footer-list__a">Privacy Policy</a>
+				<a href="/" class="footer-list__a">Terms & Conditions</a>
+			</div>
+			<div class="footer-list__item">
+				<span>Product</span>
+				<a href="/" class="footer-list__a">Essential Landing Page</a>
+				<a href="/" class="footer-list__a">Alpha Dashboard Pro</a>
+				<a href="/" class="footer-list__a">Karnel Admin Dashboard</a>
+				<a href="/" class="footer-list__a">Gray UI Kit</a>
+			</div>
+		</div>
+	</div>
+</footer>	
+	</div>
+
+
+	<script src="./js/index.bundle.js"></script>
+	<script>
+		function navToggle() {
+			document.getElementById("headerUl").classList.toggle("_active");
+			document.getElementById("headerBackdrop").classList.toggle("_active");
+		}
+	</script>
+
+	<script>
+		/*=============== ACCORDION ===============*/
+		const accordionItems = document.querySelectorAll('.accordion__item')
+
+		// 1. Selecionar cada item
+		accordionItems.forEach((item) => {
+			const accordionHeader = item.querySelector('.accordion__header')
+
+			// 2. Seleccionar cada click del header
+			accordionHeader.addEventListener('click', () => {
+				// 7. Crear la variable
+				const openItem = document.querySelector('.accordion-open')
+
+				// 5. Llamar a la funcion toggle item
+				toggleItem(item)
+
+				// 8. Validar si existe la clase
+				if (openItem && openItem !== item) {
+					toggleItem(openItem)
+				}
+			})
+		})
+
+		// 3. Crear una funcion tipo constante
+		const toggleItem = (item) => {
+			// 3.1 Crear la variable
+			const accordionContent = item.querySelector('.accordion__content')
+
+			// 6. Si existe otro elemento que contenga la clase accorion-open que remueva su clase
+			if (item.classList.contains('accordion-open')) {
+				accordionContent.removeAttribute('style')
+				item.classList.remove('accordion-open')
+			} else {
+				// 4. Agregar el height maximo del content
+				accordionContent.style.height = accordionContent.scrollHeight + 'px'
+				item.classList.add('accordion-open')
+			}
+		}</script>
+
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  font-family: var(--ff);
+}
+
+.container {
+  max-width: calc(1120px + 40px);
+  padding: 0 20px;
+  margin-inline: auto;
+  width: 100%;
+}
+
+section {
+}
+
+.wrapper {
+  max-width: 1440px;
+  width: 100%;
+  overflow-x: hidden;
+  margin-inline: auto;
+  @include desktop {
+    max-width: 100%;
+    width: 100%;  
+    overflow-x: visible;
+  }
+}
+
+.title {
+  font: var(--title);
+  color: var(--c-title);
+  @include tablet-small {
+    --title: normal 700 40px/40px var(--ff);
+  }
+  @include mobile {
+    --title: normal 700 30px/30px var(--ff);
+  }
+  @include mobile-small {
+    --title: normal 700 25px/25px var(--ff);
+  }
+}
+.desc {
+  font: var(--desc);
+  color: var(--c-desc);
+  @include tablet-small {
+    --desc: normal 400 18px/22px var(--ff-second);
+  }
+  @include mobile {
+    --desc: normal 400 18px/18px var(--ff-second);
+  }
+  @include mobile-small {
+    --desc: normal 400 16px/16px var(--ff-second);
+  }
+}
+
+.btn {
+  border-radius: 33px;
+  background: var(--gradient-primary);
+  padding: 15px 30px;
+  color: var(--c-white);
+  transition: var(--transition);
+
+  &:hover {
+    color: var(--c-title);
+  }
+}
